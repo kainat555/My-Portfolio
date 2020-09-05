@@ -11,6 +11,7 @@
 }
 .col-sm-4{
     color:blue;
+    /* color: #000; */
 }
 body{
     color: blue !important;
