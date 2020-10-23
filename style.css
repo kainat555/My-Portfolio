@@ -1,10 +1,7 @@
-#navbarNav{
-    margin-left: 900px;
-}
+
 .sectionabt{
     text-align: center;
     margin-top: 100px;
-
 }
 .sectionabt{
     color: blue;
@@ -12,6 +9,10 @@
 .col-sm-4{
     color:blue;
     /* color: #000; */
+}
+.profile_img img{
+    border-radius: 50% !important;
+    width: 250px;
 }
 body{
     color: blue !important;
@@ -28,8 +29,5 @@ h1{
     text-align: center;
 }
 #listItems{
-    /* text-align: center; */
     list-style-type: none;
-    
-
 }
