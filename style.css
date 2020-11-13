@@ -13,6 +13,11 @@
 .profile_img img{
     border-radius: 50% !important;
     width: 250px;
+    /* background-image: url('images/profile_img.jpg') !important;
+    background-repeat: no-repeat;
+    height: 100vh !important;
+    background-size: cover; */
+
 }
 body{
     color: blue !important;
@@ -30,4 +35,21 @@ h1{
 }
 #listItems{
     list-style-type: none;
+}
+
+#typed{
+    color: blue;
+    font-size: 30px;
+    line-height: 5vh;
+    font-weight: 500;
+}
+
+#typed::after{
+    content: '|';
+}
+.contact-btn{
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    width: 120px;
 }
