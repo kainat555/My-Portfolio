@@ -6,61 +6,67 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>My Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <!-- font awesome cdn  -->
   <script src="https://kit.fontawesome.com/b0ae396e2b.js" crossorigin="anonymous"></script>
+  <!-- bootstrap cdn -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-
+  <!-- typed library cdn   -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script> -->
+  <!-- AOS library CSS link -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- AOS library JS link -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
   <div class="container-fluid">
     <div class="row">
       <div class="col-10 mx-auto">
-  <div class="section">
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-      <a class="navbar-brand text-light font-weight-bold" href="#">Kainat</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link text-light font-weight-bold" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light font-weight-bold" href="#aboutMe">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light font-weight-bold" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light font-weight-bold" href="#myWork">My Work</a>
-          </li>
+        <div class="section">
+          <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+            <a class="navbar-brand text-light font-weight-bold" href="#">Kainat</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link text-light font-weight-bold" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light font-weight-bold" href="#aboutMe">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light font-weight-bold" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light font-weight-bold" href="#myWork">My Work</a>
+                </li>
+            </div>
+          </nav>
+        </div>
       </div>
-    </nav>
+    </div>
   </div>
-</div>
-</div>
-</div>
 
   <div class="section">
     <div class="container">
       <div class="row">
         <div class="col-6 mt-5 d-flex justify-content-around flex-column">
-          <!-- <h2>Hi,<br> I'm Kainat,<br>Web Designer and Developer.</h2> -->
-          <h2>Hi,</h2>
+          <h2 data-aos="fade-right" data-aos-duration="3000">Hi,<br> I'm Kainat,<br>Web Designer and Developer.</h2>
+          <!-- <h2>Hi,</h2>
           <h2> I'm Kainat,</h2>
           <div id="typed-strings">
             <h2>I'm a Web Designer</h2>
             <h2>I'm a Web Developer</h2>
             <h2>I'm a Freelancer</h2>
           </div>
-          <span id="typed"></span>
+          <span id="typed"></span> -->
 
-          <p>HTML / CSS / JavaScript / React / React Native</p>
-          <a href="#contact"><button class="mt-4 contact-btn bg-primary text-light">Contact me</button></a>
+          <p data-aos="fade-left" data-aos-duration="3000">HTML / CSS / JavaScript / React / React Native</p>
+          <a data-aos="fade-up" data-aos-duration="3000" href="#contact"><button class="mt-4 contact-btn bg-primary text-light">Contact me</button></a>
         </div>
         <div class="col-6 mt-3 profile_img d-flex justify-content-around align-items-center">
           <img class="card-img-top" src="images/profile_img.jpg" alt="">
@@ -77,12 +83,12 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <h1>ABOUT ME</h1>
-          <h4>Little bit about me..</h4>
-          <p>I had a keen interest in web designing and developing since I was in college.It made me choosing this path
+          <h1 data-aos="fade-left" data-aos-duration="3000">ABOUT ME</h1>
+          <h4 data-aos="fade-right" data-aos-duration="3000">Little bit about me..</h4>
+          <p data-aos="zoom-in" data-aos-duration="3000">I had a keen interest in web designing and developing since I was in college.It made me choosing this path
             as my career.<br>
             I experimented a lot and as a result learnt a lot and then step into the world of professional developers
-          </p>
+          <!-- </p> -->
           Now I can make responsive websites with functuatility and can make custom web pages too.You can check my work
           below.</p>
           <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis fuga dolor nobis eaque quasi est animi
@@ -103,12 +109,12 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <h1>MY SKILLS</h1>
+          <h1 data-aos="fade-down" data-aos-duration="3000">MY SKILLS</h1>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, reprehenderit laudantium itaque quas rerum
+            <!-- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, reprehenderit laudantium itaque quas rerum
             praesentium excepturi,
-            <br> autem incidunt soluta impedit ad ipsam nostrum, minima nobis! Modi, sunt magnam! Rerum, eum.
-          <ul id="listItems">
+            <br> autem incidunt soluta impedit ad ipsam nostrum, minima nobis! Modi, sunt magnam! Rerum, eum. -->
+          <ul data-aos="fade-up" data-aos-duration="3000" id="listItems">
             <li>HTML</li>
             <li>CSS</li>
             <li>Bootstrap</li>
@@ -137,7 +143,7 @@
   <div class="section">
     <div class="container">
       <div class="row">
-        <div class="col-sm-4 mb-4 d-flex justify-content-center align-item-center">
+        <div data-aos="zoom-in-up" data-aos-duration="3000" class="col-sm-4 mb-4 d-flex justify-content-center align-item-center">
           <div class="card" style="max-width: 18rem;">
             <img class="card-img-top" height="200px" src="images/google form.png" alt="">
             <div class="card-body">
@@ -148,7 +154,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4 mb-4 d-flex justify-content-center align-item-center">
+        <div data-aos="zoom-in-up" data-aos-duration="3000" class="col-sm-4 mb-4 d-flex justify-content-center align-item-center">
           <div class="card" style="max-width: 18rem;">
             <img class="card-img-top" height="200px" src="images/bootstrap page.png" alt="">
             <div class="card-body">
@@ -159,7 +165,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4 mb-4 d-flex justify-content-center align-item-center">
+        <!-- <div data-aos="zoom-in-up" data-aos-duration="3000" class="col-sm-4 mb-4 d-flex justify-content-center align-item-center">
           <div class="card" style="max-width: 18rem;">
             <img class="card-img-top" height="200px" src="images/reactPage.jpg" alt="">
             <div class="card-body">
@@ -168,7 +174,7 @@
               <a href="https://kainat555.github.io/React-page/." target="_blank" class="btn btn-primary">
                 Live Demo</a>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -177,7 +183,7 @@
   <div class="section">
     <div class="container">
       <div class="row">
-        <div class="col-sm-4 mb-4 d-flex justify-content-center align-item-center">
+        <div data-aos="zoom-in-up" data-aos-duration="3000" class="col-sm-4 mb-4 d-flex justify-content-center align-item-center">
           <div class="card" style="max-width: 18rem;">
             <img class="card-img-top" height="200px" src="images/fruit Shop.png" alt="">
             <div class="card-body">
@@ -188,7 +194,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4 mb-4 d-flex justify-content-center align-item-center">
+        <div data-aos="zoom-in-up" data-aos-duration="3000" class="col-sm-4 mb-4 d-flex justify-content-center align-item-center">
           <div class="card" style="max-width: 18rem;">
             <img class="card-img-top" height="200px" src="images/food landing page.jpg" alt="">
             <div class="card-body">
@@ -199,7 +205,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4 mb-4 d-flex justify-content-center align-item-center">
+        <div data-aos="zoom-in-up" data-aos-duration="3000" class="col-sm-4 mb-4 d-flex justify-content-center align-item-center">
           <div class="card" style="max-width: 18rem;">
             <img class="card-img-top" height="200px" src="images/Ecommerce.png" alt="">
             <div class="card-body">
@@ -217,7 +223,7 @@
   <div class="section">
     <div class="container">
       <div class="row">
-        <div class="col-sm-4 mb-4 d-flex justify-content-center align-item-center">
+        <div data-aos="zoom-in-up" data-aos-duration="3000" class="col-sm-4 mb-4 d-flex justify-content-center align-item-center">
           <div class="card" style="max-width: 18rem;">
             <img class="card-img-top" height="200px" src="images/BMI.jpg" alt="">
             <div class="card-body">
@@ -227,7 +233,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4 mb-4 d-flex justify-content-center align-item-center">
+        <!-- <div data-aos="zoom-in-up" data-aos-duration="3000" class="col-sm-4 mb-4 d-flex justify-content-center align-item-center">
           <div class="card" style="max-width: 18rem;">
             <img class="card-img-top" height="200px" src="images/beauty consultant.png" alt="">
             <div class="card-body">
@@ -237,8 +243,8 @@
                 Live Demo</a>
             </div>
           </div>
-        </div>
-        <div class="col-sm-4 mb-4 d-flex justify-content-center align-item-center">
+        </div> -->
+        <div data-aos="zoom-in-up" data-aos-duration="3000" class="col-sm-4 mb-4 d-flex justify-content-center align-item-center">
           <div class="card" style="max-width: 18rem;">
             <img class="card-img-top" height="200px" src="images/react-web.jpg" alt="">
             <div class="card-body">
@@ -256,7 +262,7 @@
   <!-- <div class="section">
   <div class="container">
     <div class="row">
-        <div class="col-sm-4">
+        <div data-aos="zoom-in-up" data-aos-duration="3000" class="col-sm-4">
           <div class="card" style="max-width: 18rem;">
             <div class="card-bodyy">
               <h5 class="card-title">Project # 10</h5>
@@ -265,7 +271,7 @@
     </div>
           </div>
         </div>
-        <div class="col-sm-4">
+        <div data-aos="zoom-in-up" data-aos-duration="3000" class="col-sm-4">
           <div class="card" style="max-width: 18rem;">
             <div class="card-bodyy">
               <h5 class="card-title">Project # 11</h5>
@@ -274,7 +280,7 @@
       </div>
           </div>
         </div>
-        <div class="col-sm-4">
+        <div data-aos="zoom-in-up" data-aos-duration="3000" class="col-sm-4">
           <div class="card" style="max-width: 18rem;">
             <div class="card-bodyy">
               <h5 class="card-title">Project # 12</h5>
@@ -293,7 +299,7 @@
 
 
   <div class="jumbotron jumbotron-fluid">
-    <div class="container text-center text-uppercase">
+    <div data-aos="zoom-in-up" data-aos-duration="3000" class="container text-center text-uppercase">
       <p class="lead font-weight-bold">or you may check my Github Profile here..</p>
       <a href="https://github.com/kainat555" target="_blank">
         <i class="fab fa-github fa-2x"></i>
@@ -303,7 +309,7 @@
 
 
   <div class="container my-5" id="contact">
-    <div class="row">
+    <div data-aos="zoom-in-up" data-aos-duration="3000" class="row">
       <div class="col">
         You can connect with me.. <br>
         <a href="www.facebook.com"><i class="fa fa-facebook-official mx-2" aria-hidden="true"></i></a>
@@ -319,12 +325,17 @@
   </div>
 
 
-
-  <script>
+  <!-- initialize Typed JS  -->
+  <!-- <script>
     var type = new Typed('#typed', {
       stringsElement: '#typed-strings',
       typeSpeed: 50,
     });
+  </script> -->
+
+  <!-- initialize AOS -->
+  <script>
+    AOS.init();
   </script>
 </body>
 
