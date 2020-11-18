@@ -1,43 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-.sectionabt{
-    text-align: center;
-    margin-top: 100px;
-}
-/* .sectionabt{
-    color: blue;
-} */
-.col-sm-4{
-    color:blue;
-    /* color: #000; */
-}
+
 .profile_img img{
     border-radius: 50% !important;
     width: 250px;
-    /* background-image: url('images/profile_img.jpg') !important;
-    background-repeat: no-repeat;
-    height: 100vh !important;
-    background-size: cover; */
+}
 
+.nav-link{
+    color: #000 !important;
 }
-/* body{
-    color: blue !important;
-} */
-.mt-4{
-    border-radius: 5px;
-    height: 35px;
-}
+
 h1{
     text-decoration: underline;
-    text-transform: uppercase;
 }
+
 #skills{
     text-align: center;
 }
+
 #listItems{
     list-style-type: none;
 }
 
-#typed{
+/* typed library css */
+
+/* #typed{
     color: blue;
     font-size: 30px;
     line-height: 5vh;
@@ -46,30 +37,22 @@ h1{
 
 #typed::after{
     content: '|';
-}
+} */
+/* <!-- <h2>Hi,</h2>
+<h2> I'm Kainat,</h2>
+<div id="typed-strings">
+  <h2>I'm a Web Designer</h2>
+  <h2>I'm a Web Developer</h2>
+  <h2>I'm a Freelancer</h2>
+</div>
+<span id="typed"></span> --> */
+
 .contact-btn{
     border: none;
     outline: none;
     border-radius: 20px;
     width: 120px;
 }
-
-
-
-
-
-
-
-/* .serviceoffers{
-    background: #f7f7f9;
-    padding: 50px 0;
-    margin-bottom: 50px;
-} */
-
-/* .headings{
-    font-size: 1.5rem;
-    font-weight: 600;
-} */
 
 .names h1{
     color: #2e2e2e;
@@ -78,15 +61,9 @@ h1{
     font-weight: bold;
 }
 
-
-/* .service-icons{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-} */
-
 .progress{
     height: 0.6rem !important;
     margin-bottom: 25px !important;
     background: #606060;
 }
+
