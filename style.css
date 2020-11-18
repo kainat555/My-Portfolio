@@ -3,9 +3,9 @@
     text-align: center;
     margin-top: 100px;
 }
-.sectionabt{
+/* .sectionabt{
     color: blue;
-}
+} */
 .col-sm-4{
     color:blue;
     /* color: #000; */
@@ -19,9 +19,9 @@
     background-size: cover; */
 
 }
-body{
+/* body{
     color: blue !important;
-}
+} */
 .mt-4{
     border-radius: 5px;
     height: 35px;
@@ -52,4 +52,41 @@ h1{
     outline: none;
     border-radius: 20px;
     width: 120px;
+}
+
+
+
+
+
+
+
+/* .serviceoffers{
+    background: #f7f7f9;
+    padding: 50px 0;
+    margin-bottom: 50px;
+} */
+
+/* .headings{
+    font-size: 1.5rem;
+    font-weight: 600;
+} */
+
+.names h1{
+    color: #2e2e2e;
+    font-size: .9rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+/* .service-icons{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+} */
+
+.progress{
+    height: 0.6rem !important;
+    margin-bottom: 25px !important;
+    background: #606060;
 }

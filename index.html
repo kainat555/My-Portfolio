@@ -6,26 +6,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>My Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  
   <!-- font awesome cdn  -->
   <script src="https://kit.fontawesome.com/b0ae396e2b.js" crossorigin="anonymous"></script>
+  
   <!-- bootstrap cdn -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <!-- typed library cdn   -->
+   integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  
+   <!-- typed library cdn   -->
   <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script> -->
+  
   <!-- AOS library CSS link -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
   <!-- AOS library JS link -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-10 mx-auto">
         <div class="section">
-          <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-            <a class="navbar-brand text-light font-weight-bold" href="#">Kainat</a>
+          <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+            <div class="container text-uppercase p-2">
+            <a class="navbar-brand font-weight-bold" href="#">Kainat</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -33,29 +36,28 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link text-light font-weight-bold" href="#">Home</a>
+                  <a class="nav-link font-weight-bold" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-light font-weight-bold" href="#aboutMe">About Me</a>
+                  <a class="nav-link font-weight-bold" href="#aboutMe">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-light font-weight-bold" href="#skills">Skills</a>
+                  <a class="nav-link font-weight-bold" href="#skills">Skills</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-light font-weight-bold" href="#myWork">My Work</a>
+                  <a class="nav-link font-weight-bold" href="#myWork">Work</a>
                 </li>
+            </div>
             </div>
           </nav>
         </div>
-      </div>
-    </div>
-  </div>
+    
 
   <div class="section">
     <div class="container">
       <div class="row">
-        <div class="col-6 mt-5 d-flex justify-content-around flex-column">
-          <h2 data-aos="fade-right" data-aos-duration="3000">Hi,<br> I'm Kainat,<br>Web Designer and Developer.</h2>
+        <div class="col-lg-6 col-md-6 col-12 mt-3 d-flex justify-content-around flex-column">
+          <h2 class="font-weight-bold" data-aos="fade-right" data-aos-duration="3000">Hi,<br> I'm <span class="text-primary">Kainat</span>,<br>Web Designer and Developer.</h2>
           <!-- <h2>Hi,</h2>
           <h2> I'm Kainat,</h2>
           <div id="typed-strings">
@@ -65,84 +67,185 @@
           </div>
           <span id="typed"></span> -->
 
-          <p data-aos="fade-left" data-aos-duration="3000">HTML / CSS / JavaScript / React / React Native</p>
+          <p class="text-primary" data-aos="fade-left" data-aos-duration="3000">HTML / CSS / JavaScript / React / React Native</p>
           <a data-aos="fade-up" data-aos-duration="3000" href="#contact"><button class="mt-4 contact-btn bg-primary text-light">Contact me</button></a>
         </div>
-        <div class="col-6 mt-3 profile_img d-flex justify-content-around align-items-center">
+        <div class="col-lg-6 col-md-6 col-12 mt-3 profile_img d-flex justify-content-around align-items-center">
           <img class="card-img-top" src="images/profile_img.jpg" alt="">
         </div>
 
-        <!-- <div class="body_img profile_img d-flex justify-content-around align-items-center">
-
-        </div> -->
       </div>
     </div>
   </div>
   <hr>
+
+
   <div class="sectionabt" id="aboutMe">
     <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h1 data-aos="fade-left" data-aos-duration="3000">ABOUT ME</h1>
+      <div class="row mb-5">
+        <div class="col-12 mb-5">
+          <h1 class="text-underline text-primary" data-aos="fade-left" data-aos-duration="3000">ABOUT</h1>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-12">
+            <img src="images/profile_img.jpg" width="280" height="370" alt="">
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-12 d-flex flex-column justify-content-center align-items-center">
           <h4 data-aos="fade-right" data-aos-duration="3000">Little bit about me..</h4>
           <p data-aos="zoom-in" data-aos-duration="3000">I had a keen interest in web designing and developing since I was in college.It made me choosing this path
-            as my career.<br>
+            as my career.
             I experimented a lot and as a result learnt a lot and then step into the world of professional developers
-          <!-- </p> -->
           Now I can make responsive websites with functuatility and can make custom web pages too.You can check my work
           below.</p>
-          <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis fuga dolor nobis eaque quasi est animi
-            modi officia dicta <br>
-            aperiam magni tempora, deleniti id corrupti consectetur laborum sequi hic placeat!
-            <br><br>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda maxime inventore quae, autem labore quam
-            ipsam vero explicabo <br>
-            cum saepe repellat temporibus voluptatum nostrum, accusamus similique, error eveniet ratione ex!</p> -->
         </div>
+        
       </div>
     </div>
   </div>
-  </div>
-  <hr>
-  <br><br>
-  <div class="section" id="skills">
+</div>
+<hr>
+<br><br>
+
+
+<!-- ************* skills section starts ************** -->
+
+
+  <section class="section" id="skills">
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <h1 data-aos="fade-down" data-aos-duration="3000">MY SKILLS</h1>
-          <p>
-            <!-- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, reprehenderit laudantium itaque quas rerum
-            praesentium excepturi,
-            <br> autem incidunt soluta impedit ad ipsam nostrum, minima nobis! Modi, sunt magnam! Rerum, eum. -->
-          <ul data-aos="fade-up" data-aos-duration="3000" id="listItems">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Bootstrap</li>
-            <li>Javascript</li>
-            <li>jQuery</li>
-            <li>React</li>
-            <li>React Native</li>
-            <li>Node.JS</li>
-            <li>Mongo DB</li>
-            <li>Express.JS</li>
-          </ul>
-          </p>
+          <h1 class="text-primary text-underline" data-aos="fade-down" data-aos-duration="3000">SKILLS</h1>
         </div>
+
+          <div class="row">
+              <div class="col-lg-6 col-md-6 col-12">
+                <h3>Professional Skills</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint quo porro laudantium modi soluta cupiditate.
+                   Debitis nulla, odio eligendi dolore hic possimus totam sit aspernatur repellat dignissimos, corrupti doloremque quae.</p>
+                  <div class="names mb-3 mt-4">
+                      <h1> HTML</h1>
+                      <div class="progress w-100">
+                          <div class="progress-bar progress-bar-striped progress-bar-animated"
+                           role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%">100%</div>
+                        </div>
+                  </div>
+
+                  <div class="names my-3">
+                      <h1> CSS</h1>
+                      <div class="progress w-100">
+                          <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                           role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 90%">90%</div>
+                        </div>
+                  </div>
+
+
+                  <div class="names my-3">
+                    <h1> BOOTSTRAP</h1>
+                    <div class="progress w-100">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary"
+                         role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%</div>
+                      </div>
+                </div>
+
+
+                  <div class="names my-3">
+                      <h1> JAVASCRIPT</h1>
+                      <div class="progress w-100">
+                          <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                           role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%</div>
+                        </div>
+                  </div>
+
+                  <div class="names my-3">
+                      <h1> REACTJS</h1>
+                      <div class="progress w-100">
+                          <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
+                           role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 90%">90%</div>
+                        </div>
+                  </div>
+
+                  <!-- <div class="names my-3">
+                      <h1> NODEJS</h1>
+                      <div class="progress w-100">
+                          <div class="progress-bar progress-bar-striped progress-bar-animated"
+                           role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%</div>
+                        </div>
+                  </div> -->
+              </div>
+
+
+              <div class="col-lg-6 col-md-6 col-12 d-flex justify-content-center align-items-center">
+                <img class="img-fluid" src="images/skills-img.jpeg" alt="">
+              </div>
+
+
+          <!-- </div> -->
+              <!-- <div class="col-lg-6 col-md-12 col-12 servicediv">
+                  <div class="row">
+                      <div class="col-lg-2 col-2 service-icons">
+                          <i class="fa fa-desktop fa-3x" aria-hidden="true">
+                          </i>
+                      </div>
+                      <div class="col-lg-10 col-10">
+                          <h2 class="text-uppercase"> website development</h2>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                              Eius hic quis ad aliq error qui repudiandae.</p>
+                      </div>
+                  </div>
+
+                  <div class="row">
+                      <div class="col-lg-2 col-2 service-icons">
+                          <i class="fa fa-wifi fa-3x" aria-hidden="true">
+                          </i>
+                      </div>
+                      <div class="col-lg-10 col-10">
+                          <h2 class="text-uppercase"> digital marketing</h2>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                              Eius hic quis ad aliq error qui repudiandae.</p>
+                      </div>
+                  </div>
+
+                  <div class="row">
+                      <div class="col-lg-2 col-2 service-icons">
+                          <i class="fa fa-phone fa-3x" aria-hidden="true">
+                          </i>
+                      </div>
+                      <div class="col-lg-10 col-10">
+                          <h2 class="text-uppercase"> support 24/7</h2>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                              Eius hic quis ad aliq error qui repudiandae.</p>
+                      </div>
+                  </div> -->
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+  <!-- ************* offer section ends ************** -->
+        <!-- </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <hr>
   <br><br>
-  <div id="myWork" class="jumbotron jumbotron-fluid">
+  <!-- <div id="myWork" class="jumbotron jumbotron-fluid">
     <div class="container">
       <h1 class="text-center">My Completed Tasks are listed below:</h1>
       <p class="lead"></p>
     </div>
-  </div>
+  </div> -->
   <hr>
-  <div class="section">
+  
+  <!-- <div class="section"> -->
+  <section>
     <div class="container">
       <div class="row">
+        <div class="col-lg-12 col-md-12 col-12 text-center">
+          <h1 class="text-primary text-underline">WORK</h1>
+        </div>
+        <!-- <div class="col-lg-12 col-md-12 col-12"> -->
         <div data-aos="zoom-in-up" data-aos-duration="3000" class="col-sm-4 mb-4 d-flex justify-content-center align-item-center">
           <div class="card" style="max-width: 18rem;">
             <img class="card-img-top" height="200px" src="images/google form.png" alt="">
@@ -178,7 +281,8 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
+    <!-- </div> -->
   <br><br>
   <div class="section">
     <div class="container">
@@ -309,8 +413,8 @@
 
 
   <div class="container my-5" id="contact">
-    <div data-aos="zoom-in-up" data-aos-duration="3000" class="row">
-      <div class="col">
+    <div class="row">
+      <div data-aos="fade-right" data-aos-duration="3000" class="col-lg-6 col-md-6 col-6">
         You can connect with me.. <br>
         <a href="www.facebook.com"><i class="fa fa-facebook-official mx-2" aria-hidden="true"></i></a>
         <a href="www.instagram.com"><i class="fa fa-instagram mx-2" aria-hidden="true"></i></a>
@@ -318,7 +422,7 @@
         <a href="www.twitter.com"><i class="fa fa-twitter mx-2" aria-hidden="true"></i></a>
         <a href="www.pinterest.com"><i class="fa fa-pinterest mx-2" aria-hidden="true"></i></a>
       </div>
-      <div class="col">
+      <div data-aos="fade-left" data-aos-duration="3000" class="col-lg-6 col-md-6 col-6">
         <p>Or you can directly call me on this no. <br> 03XX-XXXXXXX</p>
       </div>
     </div>
